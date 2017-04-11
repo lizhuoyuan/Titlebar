@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/constraintlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.li.zhuoyuan.mycustomview.MainActivity">
+
+    <com.li.zhuoyuan.mycustomview.TitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        custom:leftBackground="@mipmap/ic_launcher"
+        custom:leftText="left"
+        custom:lefttextColor="#fff"
+        custom:rightBackground="@android:color/holo_blue_bright"
+        custom:rightText="右"
+        custom:rightTextColor="@android:color/holo_green_dark"
+        custom:title="标题"
+        custom:titleColor="@color/colorAccent"
+        custom:titleTextSize="15sp"
+        >
+
+    </com.li.zhuoyuan.mycustomview.TitleBar>
+
+
+</android.support.design.widget.CoordinatorLayout>
